@@ -1,0 +1,302 @@
+#containner-1{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url(../img/background/print-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: content;
+    background-attachment: fixed;
+}
+.mascara-black{
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.534);
+
+}
+#containner-1 .mascara-black h2{
+    margin: auto auto 20px auto;
+    color: #00AFEF;
+    font-size: 3em;
+}
+#containner-1 .mascara-black p{
+    width: 60%;
+    line-height: 35px;
+    margin-bottom: 60px;
+    text-align: justify;
+    overflow: auto;
+}
+#containner-1 .mascara-black a{
+    color: rgb(0, 112, 240);
+    padding: 10px;
+    background-color: #faf378b9;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+
+}
+#containner-1 .mascara-black a:hover{
+    opacity: 0.8;
+}
+
+
+/*---------------------------------Containner 2*/
+.mascara-branca{
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+#containner-2{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+}
+#containner-2 .mascara-branca  h2{
+    font-size: 2.3em;
+    margin-bottom: 30px;
+    color: rgb(228, 3, 179);
+    
+}
+#containner-2 .mascara-branca p{
+    width: 50%;
+    margin: auto;
+    color: #333;
+    font-weight: 600;
+}
+#containner-2 .mascara-branca a{
+    color:#fff;
+    font-weight: 600;
+    background-color: #EC268F;
+    display: block;
+    width: 200px;
+    margin: 50px auto;
+    padding: 13px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px gray;
+}
+#containner-2 .mascara-branca a:hover{
+    opacity: 0.8;
+
+}
+
+/*---------------------------------GAleria de imagens */
+
+
+.galeria-de-imagens{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin: 20px 10px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.galeria-de-imagens div{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:  1px solid rgb(168, 164, 164);
+
+    box-shadow:5px 10px rgba(128, 128, 128, 0.774);
+}
+.galeria-de-imagens div:hover{
+    opacity: 10;
+}
+.galeria-de-imagens div img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*-----------------Mostruario--------------*/
+.mostruario{
+    padding: 20px;
+    background-color: #fafafa;
+
+}
+.mostruario >div{
+    text-align: center;
+
+}
+.mostruario >div>p{
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #333;
+}
+.mostruario h2{
+    color:#00afef;
+    line-height: 60px;
+    font-size: 2.3em;
+    margin-bottom: 50px;
+
+}
+.mostruario .ofertas{
+    max-width: 1024px;
+    margin: auto;
+}
+.mostruario .ofertas ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mostruario .ofertas ul li{
+    width: 200px;
+    height: auto;
+    margin: 8px;
+    padding: 8px;
+    background-color: #eee;
+    border: 1px solid #ddde;
+    border-radius: 3px;
+    opacity: 0.9;
+
+    cursor: pointer;
+}
+.mostruario .ofertas ul li:hover{
+    opacity: 10;
+}
+.mostruario .ofertas li >img{
+    max-width: 80%;
+    margin-bottom: 8px;
+}
+.mostruario .ofertas li >strong{
+    color: #333;
+    display: block;
+}
+
+
+/*--------------servicos---------------*/
+.servicos{
+    padding: 50px 20px 150px 20px;
+    text-align: center;
+    background-color:#FFF;
+
+}
+.servicos >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.servicos >div p{
+    max-width: 400px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.servicos >div h2{
+    font-size: 2.3em;
+    margin-bottom: 40px;
+    color:grey;
+}
+
+.servicos>div .servicos-img{
+    max-width: 520px;
+    padding: 10px 20px;
+    margin-top: 30px;
+
+
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(to bottom right, #00AFEF, #EC268F,#fff212);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+} 
+.servicos >div>div img{
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    width:100%;
+    margin:20px;
+
+}
+.servicos a{
+    background: #EC2790;
+    padding: 10px;
+    margin: auto;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+
+
+    box-shadow: 5px 10px 15px gray;
+}
+.servicos a:hover{
+    opacity: 0.8;
+}
+
+/*---------------------------------Mobo 2*/
+
+@media screen and (max-width: 1024px){
+    .servicos >div{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:700px){
+    #containner-1, .mascara-black{
+        height: auto;
+    }
+    #containner-1 .mascara-black p{
+        width: 100%;
+        margin: auto auto 50px auto;
+    }
+    #containner-1 .mascara-black h2{
+        text-align: center;
+        font-size: 2.3em;
+    }
+
+    .mascara-black p{
+        width: 100%;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+    #containner-1 .mascara-black p{
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+}
+@media screen and (max-width:620px){
+    
+    .mascara-branca{
+        padding: 20px 5px;
+    }
+    .galeria-de-imagens{
+        width: 90%;
+        margin: auto;
+        padding: 20px 5px;
+    }
+    .galeria-de-imagens div{
+        width: 120px;
+    }
+    
+}

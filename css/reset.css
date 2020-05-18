@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fff;
+    height: 100% ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Tomorrow', sans-serif;
+}
+a,p,li,label{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+button{
+	cursor: pointer;
+}
+li{
+	list-style-type: none;
+}

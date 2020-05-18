@@ -1,0 +1,70 @@
+#container-quem-somos{
+    width: 100%;
+    padding: 0 25px;
+    margin: auto;
+}
+#texto-quem-somos{
+    padding:20px;
+    width: 40%;
+    margin-left: 50px;
+    text-align: justify;
+    display: inline-block;
+}
+#texto-quem-somos h2{
+    font-size:30px;
+    padding-bottom: 40px;
+}
+#texto-quem-somos p{
+    line-height: 30px;
+}
+#galeria{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+#galeria img{
+    width: 100%;
+}
+.foto{
+    position: absolute;
+    opacity: 0;
+    animation-name: anim;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim{
+    25%{
+        opacity: 1;
+        transform:scale(1.1,1.1);
+    }
+    50%{
+        opacity: 0;
+    }
+}
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+    animation-delay: 10s;   
+}
+.foto:nth-child(3){
+    animation-delay: 20s; 
+}
+.foto:nth-child(4){
+    animation-delay: 30s; 
+}
+.foto:nth-child(5){
+    animation-delay: 40s; 
+}
+.foto:nth-child(6){
+    animation-delay: 50s; 
+}
+.foto:nth-child(7){
+    animation-delay: 12s; 
+}
+
+.foto:nth-child(8){
+    animation-delay: 14s; 
+}

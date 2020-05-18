@@ -1,0 +1,92 @@
+@media only screen and (max-width:700px){
+    
+    header div {
+        margin:auto;
+        display: block;
+        position: relative;
+    }
+    header h1{
+        border:1px solid red;
+        position: absolute;
+        top: 10px;
+        width: 50%;
+        left: 200px;
+        font-size: 45px;
+        display:none;
+    }
+    header div img{
+        width: 70px;
+        margin-left:10px ;
+        margin-top:9px;
+    }
+    #div-menu{
+        width: 100%;
+        padding: 0;
+        position: absolute;
+    }
+    #btn-fecha-menu,#btn-abre-menu{
+        position: absolute;
+        top:30px;
+        right: 20px;
+        padding: 10px; 
+        width: 90px;
+        border:none;
+        border-radius:5px;
+
+    }
+    #btn-fecha-menu{
+        display: none;
+         
+    }
+    #btn-abre-menu{
+        display: block;
+    }
+    #menu{
+        display: none;
+        
+    }
+
+    nav ul li{
+        text-align: center;
+        display:block;
+        width: 100%;
+        margin: 0;
+        border-bottom: 1px solid rgb(126, 109, 109);
+    }
+    .container-carrocel{
+        padding-left: 0;
+    }
+    .carrocel{
+        width: 95%;
+        margin-left:0;
+        position: relative;
+        
+    }
+    .carrocel >div{
+        min-width:50px;
+        margin: 5px;
+    }
+    .carrocel button{
+        font-size:20px;
+    }
+    #container-quem-somos{
+        width: 100%;
+        padding:10px;
+    }
+    #texto-quem-somos{
+        width: 80%;
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+
+}
+@media only screen and (min-width:701px){
+    #btn-fecha-menu,#btn-abre-menu{
+        display: none;
+    }
+    #div-menu{
+    
+        display: none;
+    }
+}
