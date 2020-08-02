@@ -1,0 +1,112 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+    
+        
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/topo.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/celular.css">
+        <link rel="stylesheet" href="../css/footer.css">
+    
+    
+        <title>CopyMania</title>
+    </head>
+    <body> 
+        <header>
+            <div><img src="../img/logo.png" alt=""></div>
+            <h1>CopyMania</h1>
+    
+            <div id="div-menu">
+                
+                <!--Inicio botao que abre menu-->
+                <button 
+                    type="button"
+                    onclick="abreMenu()"
+                    id="btn-abre-menu"
+                    >Menu</button>
+                <!--Fim botao que abre menu-->
+    
+                <!--Inicio botao que Fecha menu-->
+                <button 
+                    type="button"
+                    onclick="fechaMenu()"
+                    id="btn-fecha-menu"
+                    >Fechar</button>
+                <!--Fim botao que Fecha menu-->
+            </div>
+    
+        </header>
+        <nav id="menu">
+            <ul>
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="../index.html#servicos">Serviços</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="mostruario" >
+                <div class="ofertas">
+                    <ul id="products">
+    
+                    </ul>
+                </div>
+            </section>
+            
+    
+    
+            </section>
+            <footer>
+                <ul id="contato">
+                    <li>
+                        <h3>Contatos</h3>
+                            <a href="https://api.whatsapp.com/send?phone=5594991816357&text=MENSAGEM"
+                            target="blanck"
+                            title="Evie sua mensagem">
+                                <img src="../img/icons/whatsapp.png">
+                                +55(93)99181-6357
+                            </a>
+                            <a href="https://www.instagram.com/copymaniaorixi/"
+                            target="blanck"
+                            title="Sinaga-nos no instagran" >
+                                <img src="../img/icons/instagran.png">
+                                @CopyManiaOrixi
+                            </a>
+                            <a href="https://pt-br.facebook.com/copy.mania.52"
+                                target="blanck"
+                                title="Curta nossa página no facebook">
+                                <img src="../img/icons/facebook.png">
+                                CopyMania
+                            </a>
+                            <a href="#" title="Envie um email" >
+                                <img src="../img/icons/gmail.png">
+                                copymania18@gmail.com
+                            </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <h3>Endereço</h3>
+                        <div>
+                            <img src="../img/icons/map.png">
+                            <p>Rua Lauro Sodré - 2566 - Perpetuo Socorro - <strong>Oriximiná-PA</strong>
+                        </div>
+                    </li>
+                </ul>
+                <p>&copy-Quevem Costa</p>
+            </footer>
+    
+        </main>
+    </body>
+    <script src="../js/main.js"></script>
+    <script src="../api/products/produtos.js"></script>
+    
+    </html>
