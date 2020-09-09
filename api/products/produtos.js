@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:3333/products?';
+const apiUrl = 'http://localhost:3333/api/products?';
 const page = 'page='+1;
 
 function listProducts(){
@@ -36,7 +36,7 @@ function listProducts(){
 			ProductEle.appendChild(NameEle);
             ProductEle.appendChild(ValueEle);
             
-            document.querySelector('#products').appendChild(ProductEle)
+            //document.querySelector('#products').appendChild(ProductEle)
 
         })
     })

@@ -163,7 +163,7 @@
     width: 200px;
     height: auto;
     margin: 8px;
-    padding: 8px;
+    padding: 0px;
     background-color: #eee;
     border: 1px solid #ddde;
     border-radius: 3px;
@@ -175,14 +175,24 @@
     opacity: 10;
 }
 .mostruario .ofertas li >img{
-    max-width: 80%;
+    max-width: 100%;
+    border-radius: 3px;
     margin-bottom: 8px;
 }
 .mostruario .ofertas li >strong{
-    color: #333;
+    color: #555;
     display: block;
+    margin:10px 0;
+    padding:5px;
 }
 
+.mostruario .ofertas li > a{
+    background-color: #00AFEF;
+    border:none;
+    border-radius: 3px;
+    color:#fff;
+    padding:8px;
+}
 
 /*--------------servicos---------------*/
 .servicos{
