@@ -1,0 +1,9 @@
+const express = require(rexpress);
+
+const server = express();
+
+server.use(express.json());
+
+server.get('/',(req,res)=>{
+	return res.json({mensagem:'server ok'})
+})
